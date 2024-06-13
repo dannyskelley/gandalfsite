@@ -39,9 +39,7 @@
 
         <!-- Sitewide Stylesheets and Scripts -->
         <link rel="stylesheet" href="/assets/css/root.css">
-        <script src="/assets/js/aos.js"></script>
-        <link rel="stylesheet" href="/assets/aos/aos.css" />
-
+    
 
         {% block head %}{% endblock %}
 
@@ -56,13 +54,5 @@
             {% block body %}{% endblock %}
         </main>
         {% include "components/footer.html" %}
-
-
-        <script>
-            AOS.init({
-              easing: 'ease-in-out-sine',
-            });
-        </script>
-          
     </body>
 </html>
