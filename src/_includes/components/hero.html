@@ -11,7 +11,7 @@
   #hero-1804 {
     /* 200px - 244px top */
     /* 60px - 100px  bottom */
-    padding: clamp(12.5rem, 16.82vw, 15.25rem) 1rem 0;
+    padding: clamp(10.5rem, 16.82vw, 15.25rem) 1rem 0;
     background-color: #0f0d0e;
     /* clips the svg wave from overflowing */
     overflow: hidden;
@@ -24,12 +24,12 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     flex-direction: column;
     gap: 3rem;
   }
   #hero-1804 .cs-content {
-    text-align: center;
+    
     max-width: 39.375rem;
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@
     line-height: 1.2em;
     text-align: inherit;
     /* 23 characters including spaces wide */
-    max-width: 23ch;
+    
     margin: 0 0 1rem 0;
     color: var(--bodyTextColorWhite);
     position: relative;
@@ -141,17 +141,17 @@
     height: 100%;
     width: 100%;
     /* makes image act as a background image */
-    object-fit: cover;
+    object-fit: contain;
   }
   #hero-1804 .cs-video-wrapper video img,
   #hero-1804 .cs-video-wrapper .cs-picture img {
     position: absolute;
-    top: -200px;
+ 
     left: 0;
-    height: 100%;
+
     width: 100%;
     /* makes image act as a background image */
-    object-fit: cover;
+    object-fit: contain;
   }
   #hero-1804 .cs-play {
     /* 80px - 120px */
@@ -196,9 +196,7 @@
     align-items: flex-start;
     align-self: flex-start;
   }
-  #hero-1804 .cs-title {
-    max-width: 10ch;
-  }
+
   #hero-1804 .cs-video-group {
     width: 50%;
     max-width: 39.375rem;
@@ -254,7 +252,7 @@
                <picture class="cs-picture">
                     <source media="(max-width: 600px)" srcset="/assets/images/home.jpg">
                     <source media="(min-width: 601px)" srcset="/assets/images/home.jpg">
-                    <img loading="lazy" decoding="async" src="/assets/images/home.jpg" alt="body builder" width="630" height="877">
+                    <img loading="lazy" decoding="async" src="/assets/images/home.jpg" alt="body builder" width="630">
                 </picture> 
   
             </div>
